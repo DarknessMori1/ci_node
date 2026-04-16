@@ -185,7 +185,7 @@ docker run --rm -v "//$(pwd)/app" -w //app node:18-alpine npm install --package-
 
 После пуша перейдите на вкладку **Actions** вашего репозитория:
 
-![Скриншот успешного выполнения Workflow](./screenshots/4_workflow.png)
+![Скриншот успешного выполнения Workflow](./img/1_workflow.png)
 
 *Ожидайте зелёную галочку — все шаги прошли успешно.*
 
@@ -211,7 +211,7 @@ docker run --rm my-node-app:latest
 Hello from Node.js app!
 ```
 
-![Вывод приложения в контейнере](./screenshots/3_workflow.png)
+![Вывод приложения в контейнере](./img/2_workflow.png)
 
 ### Интерактивный режим (опционально)
 
